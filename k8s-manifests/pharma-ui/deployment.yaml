@@ -32,7 +32,7 @@ spec:
             readOnlyRootFilesystem: true
             runAsNonRoot: true
             runAsUser: 1000
-          image: 886492072540.dkr.ecr.us-east-1.amazonaws.com/pharma-ui:v1.0.5
+          image: 886492072540.dkr.ecr.us-east-1.amazonaws.com/pharma-ui:v1.0.0
           imagePullPolicy: Always
           ports:
             - name: http

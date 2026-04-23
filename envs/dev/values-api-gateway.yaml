@@ -3,7 +3,7 @@ replicaCount: 1
 fullnameOverride: api-gateway
 
 image:
-  repository: 873135413040.dkr.ecr.us-east-1.amazonaws.com/api-gateway
+  repository: 886492072540.dkr.ecr.us-east-1.amazonaws.com/api-gateway
   tag: v1.0.2
   pullPolicy: Always
 
@@ -78,5 +78,5 @@ volumes:
 serviceAccount:
   create: true
   annotations:
-    eks.amazonaws.com/role-arn: arn:aws:iam::873135413040:role/pharma-dev-eks-role
+    eks.amazonaws.com/role-arn: arn:aws:iam::886492072540:role/pharma-dev-eks-role
   name: api-gateway

@@ -5,7 +5,7 @@ replicaCount: 1
 fullnameOverride: drug-catalog-service
 
 image:
-  repository: 873135413040.dkr.ecr.us-east-1.amazonaws.com/catalog-service
+  repository: 886492072540.dkr.ecr.us-east-1.amazonaws.com/catalog-service
   tag: v1.0.1
   pullPolicy: Always
 
@@ -56,7 +56,7 @@ readinessProbe:
 
 configmap:
   SPRING_PROFILES_ACTIVE: dev
-  DB_HOST: pharma-dev-postgres.cs3c424yurej.us-east-1.rds.amazonaws.com
+  DB_HOST: pharma-dev-postgres.cwlcmya4oao5.us-east-1.rds.amazonaws.com
   LOG_LEVEL: DEBUG
   SERVER_PORT: "8082"
   MANAGEMENT_ENDPOINTS_WEB_EXPOSURE_INCLUDE: "health,info,metrics,prometheus"
